@@ -5,6 +5,88 @@
   padding: 0;
   box-sizing: inherit;
 }
+html {
+  /* 10px */
+  font-size: 62.5%;
+}
 body {
   box-sizing: border-box;
+  font-size: 1.6rem; /*16px*/
+}
+.col-1 {
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 33.333%;
+}
+.container {
+  width: 100%;
+}
+.hero__section {
+  display: flex;
+}
+.heading--style {
+  color: #130f3a;
+  font-size: 4.8rem;
+}
+h1 span {
+  color: #ffad5a;
+}
+a {
+  color: #fff3f3;
+  background-color: #ff5959;
+}
+.img--section img {
+  display: flex;
+  width: 50%;
+}
+
+.mission__goal {
+}
+.mission__goal h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.mission__goal--card {
+  display: flex;
+}
+.mission__goal h1 {
+}
+.mission__goal--card-1 {
+  background-color: #edf5f6;
+}
+.mission__goal--card-2 {
+  background-color: #ffeeee;
+}
+.mission__goal--card-3 {
+  background-color: #fff5d6;
+}
+
+.dev__limits {
+}
+.dev__limits--section1 {
+  display: flex;
+}
+.img__section img {
+  width: 50%;
+}
+.dev__limits--sction2 {
+  display: flex;
+}
+.img__sction img {
+  width: 50%;
+}
+.portfoli__section {
+}
+.portfoli__section h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+.footer__section {
+  background-color: #130f3a;
+  text-align: center;
 }
